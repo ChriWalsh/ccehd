@@ -1,0 +1,22 @@
+Package: ccehd
+Title: Estimate Panel Model with Interactive Fixed Effects and Many Regressors
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Christopher", "Walsh",, "cwalsh@uni-bonn.de", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0003-3586-7010")),
+      person("Michael", "Vogt",,"m.vogt@uni-ulm.de", role = c("aut"),
+           comment = c(ORCID = " https://orcid.org/0000-0002-5885-4303")))
+Description: Estimates the coefficients in a panel model with interactive fixed 
+             effects using the procedures proposed in Vogt, M.,  Walsh, C, and 
+             Linton, O. (2022)  "Estimation of High-Dimensional Panel Data 
+             Models with Interactive Fixed Effects".
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    stats,
+    glmnet,
+    MASS
+LazyData: true  
+LazyDataCompression: xz
